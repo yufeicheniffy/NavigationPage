@@ -16,12 +16,17 @@ header{
 }
 .topNavBar{
     justify-content: center;
+    position: relative;
 }
 #navIcon{
     display: inline-block;
+    position: relative;
+    left: 20px;
 }
 .topNavBar-NavBar{
     display: inline-block;
+    position: absolute;
+    right: 20px;
 }
 .topNavBar-NavBar>ul{
     list-style: none;
